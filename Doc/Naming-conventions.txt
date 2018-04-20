@@ -1,0 +1,46 @@
+                            Naming conventions
+                            ******************
+Usage: HPTools:
+**************
+->Describe the names for variables and functions
+->Whenever adding new functions, edit this file so that it contains all the function names and descriptions
+                        
+Variable names
+**************
+->Variable name should be meaningfull
+->Should start with small letter
+->Name collision s allowed in each functions internally
+->If used global variable should be names with g_ prefic Ex:g_test
+
+Function names
+**************
+->Should start with Capital letter
+->Should contain _ symbol for read ,write,getters and setters functions
+->Specify the sources for read & write using second _ symbol like Read_par_hd5
+->Rest functions should not contain "_"
+
+Preprocessor macro names
+************************
+->If used must be declared with _ symbol for name separation
+->Complete name should be in CAPITAL
+
+Global Constant:
+***************
+->Should contain all capital letters only
+->Must be delclared on the top just below imports.
+
+Datastructures:
+**************
+->Should begin with ds_xxx ex:ds_hp,ds_xyz
+
+File name:
+*********
+->If new files created should be of formate xxxx_ICM.py in src folder
+->All letters should be capitals
+
+
+
+* Functionality                 Function name
+   ************                 *************
+ * 1)read sequence from 2bit  : Read_sequence_2bit(fp,)
+ * 2)read sequence from txt   : Read_sequence_txt(fp)
