@@ -4,7 +4,12 @@ Usage: HPTools:
 **************
 ->Describe the names for variables and functions
 ->Whenever adding new functions, edit this file so that it contains all the function names and descriptions
-                        
+                
+Class names:
+***********
+->Names of python classes should begin with a capital letter, and not contain any underscores
+->Class names comprised of multiple words should have each word capitalized.                
+                
 Variable names
 **************
 ->Variable name should be meaningfull
